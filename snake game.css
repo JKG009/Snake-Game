@@ -1,0 +1,134 @@
+html, body {
+    margin: 0;
+    padding: 10;
+}
+
+body {
+    background: linear-gradient(#FF9B85, #FFD97D);
+    text-align: center;
+    color: black;
+    min-width: 450px;
+    min-height: 600px;
+}
+
+h1 {
+    font-size: 60px;
+    color:rgba(51, 19, 233, 0.781);
+    font-family: fantasy;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: fantasy;
+    text-align: left;
+    color:rgba(51, 19, 233, 0.781);
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    border: solid 1px white;
+    background: rgba(102, 167, 140, 0.616);
+    justify-content: space-around;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 3px green;
+    position: relative;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    width: 18px;
+    height: 18px;
+    background: green;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: inset 0 4px 4px rgba(255, 255, 255, 0.5), inset 0 -4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.apple {
+    background: red;
+    border-radius: 5px;
+    width: 18px;
+    height: 18px;
+    border: black solid 1px;
+    box-shadow: inset 0 4px 4px rgba(255, 255, 255, 0.5), inset 0 -4px 4px rgba(0, 0, 0, 0.5);
+}
+
+#game-result {
+    color:rgba(51, 19, 233, 0.781);
+    font-family: fantasy;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    background: grey;
+    
+}
+
+#start {
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+    background: white;
+    position: relative;
+    font-family: fantasy;
+    font-size: 16px;
+}
+
+#start:hover {
+    background: grey;
+    color: white;
+}
+
+#start:focus {
+    border: none;
+    outline: none;
+}
+
+#start:active {
+    border: none;
+}
+
+.difficulty-container button{
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+    background: white;
+    position: relative;
+    font-family: fantasy;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    float: left;
+}
+
+#easyBtn {
+    display:inline-block;
+}
+
+.difficulty-container button:hover {
+    background: grey;
+    color: white;
+}
+
+.difficulty-container button:active {
+    background: grey;
+    color: white;
+}
+
+.difficulty-container button:focus {
+    background: grey;
+    color: red;
+}
+
+.selected-difficulty{
+    color: red;
+    /* can't change background color? */
+}
