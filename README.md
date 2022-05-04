@@ -6,7 +6,7 @@ Select a difficulty level and press start.
 Move using the arrow keys or the WASD keys.
 
 
-Misc Information
+# Misc Information
 
 This is the first project that I uploaded onto Github.
 It is made after going through a Scrimba module, however, I decided to implement additional functionalities to make it my own project and also played around with CSS.
