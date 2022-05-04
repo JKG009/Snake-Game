@@ -6,11 +6,14 @@
 
     <body>
         <h1>Snake Game</h1>
-        <h2>Score: <span id="score">0</span></h2>
+        <div class="scorebox">
+            <h2>Score: <span id="score">0</span></h2>
+            <h2>High Score: <span id="highscore">0</span></h2>
+        </div>
         <div class="difficulty-container">
-            <button id="easyBtn" onclick="changeDifficulty(1)">Easy</button>
+            <button id="easyBtn" onclick="changeDifficulty(1)">Cakewalk</button>
             <button id="normalBtn" onclick="changeDifficulty(2)">Normal</button>
-            <button id="hardBtn" onclick="changeDifficulty(3)">Hard</button>
+            <button id="hardBtn" onclick="changeDifficulty(3)">Impossible</button>
         </div>
         <div class="grid"></div>
         <div>
