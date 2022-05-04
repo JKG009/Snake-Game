@@ -2,12 +2,11 @@
 
 Classic snake game using HTML, CSS and Javascript.
 
-# How to play
+Select a difficulty level and press start.
+Move using the arrow keys or the WASD keys.
 
-Select a difficulty level.
-Use either the arrow keys or the WASD keys.
 
-# Other Information
+Misc Information
 
 This is the first project that I uploaded onto Github.
 It is made after going through a Scrimba module, however, I decided to implement additional functionalities to make it my own project and also played around with CSS.
